@@ -183,7 +183,8 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:srcCompat="@drawable/wind" />
+                    tools:srcCompat="@drawable/wind"
+                    android:src="@drawable/wind"/>
 
                 <TextView
                     android:id="@+id/windSpeed"
@@ -213,7 +214,8 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:srcCompat="@drawable/conditions" />
+                    tools:srcCompat="@drawable/conditions"
+                    android:src="@drawable/conditions"/>
 
                 <TextView
                     android:id="@+id/condition"
@@ -246,7 +248,8 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:srcCompat="@drawable/sunrise" />
+                    tools:srcCompat="@drawable/sunrise"
+                    android:src="@drawable/sunrise"/>
 
                 <TextView
                     android:id="@+id/sunRise"
@@ -277,7 +280,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/humidity"
+                    android:src="@drawable/sunset"
                     tools:srcCompat="@drawable/sunset" />
 
                 <TextView
@@ -310,7 +313,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/humidity"
+                    android:src="@drawable/sea"
                     tools:srcCompat="@drawable/sea" />
 
                 <TextView
